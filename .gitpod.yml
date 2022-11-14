@@ -1,0 +1,16 @@
+
+tasks:
+  - init: pnpm install --shamefully-hoist
+    command: pnpm run dev
+
+vscode:
+  extensions:
+    - Vue.volar
+    - formulahendry.auto-close-tag
+    - formulahendry.auto-rename-tag
+    - esbenp.prettier-vscode
+    - stylelint.vscode-stylelint
+    - wix.vscode-import-cost
+    - PKief.material-icon-theme
+    - dbaeumer.vscode-eslint
+    - streetsidesoftware.code-spell-checker
